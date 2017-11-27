@@ -1,4 +1,4 @@
-﻿<project name="BDC1S" default="JarFile" basedir=".">
+﻿<project name="HashtagAnalysis" default="JarFile" basedir=".">
 	<description>
         Sample MapReduce project build file
     </description>
@@ -38,7 +38,7 @@
 		<mkdir dir="${JarFile}" />
 
 		<!-- Put everything in ${build} into a jar file -->
-		<jar jarfile="${JarFile}/BDC1S.jar" basedir="${build}" />
+		<jar jarfile="${JarFile}/HashtagAnalysis.jar" basedir="${build}" />
 	</target>
 
 	<target name="clean" description="clean up">
