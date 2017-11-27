@@ -3,7 +3,7 @@ Analysing Twitter data based on Hashtags used during Rio Olympics 2016.
 
 
 DATASET:
-The folder /data/olympictweets2016rio contains a large collection of Twitter messages captured during the Rio 2016 Olympics period. The messages were collected by connecting to Twitter Streaming API, and filtering only messages directly related to the Olympic Games (by requesting they include a related hashtag such as #Rio2016 or #rioolympics ).
+The file olympictweets2016rio used in this project contains a large collection of Twitter messages captured during the Rio 2016 Olympics period. The messages were collected by connecting to Twitter Streaming API, and filtering only messages directly related to the Olympic Games (by requesting they include a related hashtag such as #Rio2016 or #rioolympics ).
 
 A MapReduce job that points to that folder as input will receive as Text value the whole contents for a single entry (tweet), in the format:
 epoch_time;tweetId;tweet(including #hashtags);device
