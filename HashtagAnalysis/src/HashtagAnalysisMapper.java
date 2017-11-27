@@ -43,8 +43,8 @@ public class HashtagAnalysisMapper extends Mapper<LongWritable, Text, Text, IntW
 
                                 context.write(data, one);
                               }
-                           }
-
+                           
+                            }
                 	   }catch(Exception e) {}
 
                    }
